@@ -9,5 +9,3 @@ def hello():
 app.get("/movies/")
 def movies():
     return "a lot of movies"
-
-run(app)
